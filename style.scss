@@ -1,0 +1,5 @@
+@use "partial"; 
+
+* {
+    @include partial.flex($justify:space-between);
+}
